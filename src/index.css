@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.left {
+  transform: rotateY(180deg);
+  width: 20px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+.left:hover {
+  width: 25px;
+  transition: 0.3s all;
+}
+.right {
+  width: 20px;
+  cursor: pointer;
+}
+.right:hover {
+  width: 25px;
+  transition: 0.3s all;
+}
+
